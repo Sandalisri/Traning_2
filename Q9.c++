@@ -10,7 +10,11 @@ int main() {
         for(int s = 1; s <= n - i; s++) 
             cout << " ";
         for(int j = 1; j <= 2*i - 1; j++) 
-            cout << "*";
+            if(i==n || i==1 || j==1 || j==2*i-1){
+                cout <<"*";
+            }else{
+                cout<<" ";
+            }
         cout << endl;
     }
 
@@ -19,7 +23,11 @@ int main() {
         for(int s = 1; s <= n - i; s++) 
             cout << " ";
         for(int j = 1; j <= 2*i - 1; j++) 
-            cout << "*";
+            if(i==n || i==1 || j== 1 || j== 2*i-1){
+                cout<<"*";
+            }else{
+                cout<< " ";
+            }
         cout << endl;
     }
 
